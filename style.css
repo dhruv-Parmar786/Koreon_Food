@@ -1,0 +1,675 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.main-body {
+    background-color: #21243d;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.width-set {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.nav-list ul {
+    list-style-type: inline;
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo,
+.nav-list,
+.search-container {
+    display: inline-block;
+}
+
+.resposnsive-inline {
+    display: inline-block;
+}
+
+
+.nav-item {
+    list-style-type: inline;
+}
+
+.nav-item li {
+    display: inline;
+    padding-left: 35px;
+    font-size: 22px;
+}
+
+.responsive-style {
+    display: none;
+}
+
+.nav-item a:hover {
+    color: #fcc302;
+}
+
+.navbaar {
+    padding: 15px;
+    padding: 20px;
+    width: 83%;
+    display: inline-block;
+}
+
+.search-container {
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+.res-icon {
+    display: none;
+}
+
+.res-icon img {
+    height: 50px;
+    border-radius: 50px;
+}
+
+.main-content-2 {
+    background-image: url(image/content1-img.png);
+    background-size: 100%;
+    vertical-align: top;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+ul.nav-item {
+    display: inline-block;
+}
+
+
+.nav-list {
+
+    text-align: right;
+    width: 79%;
+}
+
+.logo {
+    width: 20%;
+    cursor: pointer;
+}
+
+.heading-2 h2 {
+    font-size: 100px;
+    color: #fff;
+}
+
+.content-2 {
+    padding-top: 260px;
+}
+
+.paragraph-2 p {
+    font-size: 25px;
+    color: #fff;
+    padding-top: 25px;
+}
+
+.content-2-button button {
+    background-color: #21243d;
+    color: #fff;
+    padding: 10PX;
+    border-radius: 25px;
+    width: 20%;
+    font-size: 20px;
+}
+
+.content-2-button {
+    padding-top: 10px;
+}
+
+.main-content-3 {
+    background: #21243d url(image/body-style.png);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-3 h2 {
+    color: #fff;
+    font-size: 65px;
+    text-align: center;
+
+}
+
+.paragrapg-3 p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.grid-template {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    padding-top: 40px;
+}
+
+.post1 img {
+    border-radius: 130px;
+}
+
+.post1 {
+    text-align: center;
+}
+
+.post-title h2 {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.post-desc p {
+    color: #fff;
+}
+
+.main-content-4 {
+    background: #ffd17e url(image/con-style.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 175px;
+}
+
+.image img {
+    border-radius: 240px;
+}
+
+.title-3 h2 {
+    color: #21243d;
+    font-size: 75px;
+}
+
+.paragraph-3 p {
+    color: #21243d;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.button-2 button {
+    background-color: #21243d;
+    color: #fff;
+    padding: 10PX;
+    border-radius: 25px;
+    width: 35%;
+    font-size: 20px;
+    border: none;
+}
+
+.main-content-5 {
+    background: #21243d url(image/con-5-sty.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.title-4 h2 {
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+}
+
+.paragraph-4 p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.card1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.main-contact-6 {
+    background: #ffd17e url(image/style.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 130px;
+}
+
+.title-7 h2 {
+    color: #21243d;
+    font-size: 75px;
+    padding-top: 55px;
+}
+
+.main-content-7 {
+    background-image: url(image/con-8.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    vertical-align: top;
+    width: 100%;
+    position: relative;
+    height: 740px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.main-content-7::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #14192ede;
+}
+
+.image-3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-3 img {
+    border-radius: 150px;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.person-name {
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.person-name h2 {
+    font-size: 45px;
+}
+
+.main-content-8 {
+    background: #ffd17e url(image/last-body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.title8,
+.paragraph8 {
+    text-align: center;
+}
+
+.title8 h2 {
+    font-size: 45px;
+}
+
+.paragraph8 p {
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.last-btn,
+.search {
+    display: inline-block;
+
+}
+
+.subscribe {
+    padding-top: 60px;
+    text-align: center;
+}
+
+input.search-input.rounded-pill {
+    width: 500px;
+    padding: 10px;
+    border: none;
+}
+
+button.rounded-pill {
+    padding: 10px;
+    margin-left: -46px;
+    width: 125px;
+    background-color: #21243d;
+    color: #fff;
+    border: none;
+}
+
+.main-content-9 {
+    background-color: #111111;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.footer-title h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.footer-paragraph p {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.icon,
+.icon a {
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+.about-list {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-left: 0;
+}
+
+.about-item ul li {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.about-item ul li:hover {
+    color: #fcc302;
+}
+
+.col-md-3.cus {
+    width: 40%;
+}
+
+.col-md-3.cus-1 {
+    width: 20%;
+    padding-left: 70px;
+}
+
+.col-md-3.cus-2 {
+    width: 20%;
+    padding-left: 70px;
+}
+
+.col-md-3.cus-3 {
+    width: 20%;
+    padding-left: 70px;
+}
+
+/* Responsive Style */
+
+@media only screen and (max-width:767px) {
+    .main-body {
+        position: static;
+    }
+
+    .width-set {
+        width: 100%;
+    }
+
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .res-icon {
+        display: inline-block;
+        width: 45%;
+        cursor: pointer;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .logo img {
+        width: 130px;
+    }
+
+    .res-icon {
+        text-align: end;
+    }
+
+    .responsive-style {
+        width: 100%;
+        height: 260px;
+        background-color: #21243d;
+        z-index: 1;
+        left: 0;
+        top: 80px;
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+        display: none;
+    }
+
+    .nav-item {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .nav-item li {
+        padding: 0;
+    }
+
+    .nav-item a {
+        display: block;
+        padding-left: 35px;
+        font-size: 22px;
+        color: #fff;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .nav-item li:hover {
+        color: #fcc302;
+    }
+
+    .main-content-2 {
+        height: auto;
+    }
+
+    .heading-2 h2 {
+        color: #fff;
+        font-size: 35px;
+    }
+
+    .content-2 {
+        padding: 0;
+        padding-bottom: 24px;
+    }
+
+    .content-2 p {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .content-2-button button {
+        padding: 6px;
+        width: 35%;
+        font-size: 15px;
+
+    }
+
+    .content-2-button {
+        padding-top: 10px;
+    }
+
+    .grid-template {
+        display: block;
+        padding: 0;
+    }
+
+    .main-content-3,
+    .main-content-4,
+    .main-content-5,
+    .main-contact-6,
+    .main-content-8 {
+        background-image: none;
+    }
+
+    .main-content-4 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .col-md-6.responsive {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .button-2 button {
+        padding: 5px;
+        width: 50%;
+    }
+
+    .main-content-3 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .title-3 h2 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .heading-3 h2 {
+        font-size: 40px;
+    }
+
+
+    .paragraph-3 p {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .post1 img {
+        padding-top: 10px;
+    }
+
+    .main-contact-6 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .button-2 {
+        text-align: center;
+    }
+
+    .title-7 h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .paragraph-3 p {
+        padding: 0;
+    }
+
+    .image img {
+        padding-top: 40px;
+    }
+
+    .main-content-7 {
+        height: auto;
+    }
+
+    .image-3 img {
+        height: 100px;
+    }
+
+    .image-3 {
+        top: 30%;
+        left: 50%;
+    }
+
+    .intro p {
+        font-size: 10px;
+        top: 65%;
+        left: 50%;
+        text-align: center;
+
+    }
+
+    .person-name h2 {
+        font-size: 21px;
+        padding-top: 15px;
+    }
+
+    .main-content-8 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .paragraph8 p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .title8 h2 {
+        font-size: 40px;
+    }
+
+    input.search-input.rounded-pill {
+        width: auto;
+    }
+
+    .subscribe {
+        padding-top: 10px;
+    }
+
+    .main-content-9 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .col-md-3.cus-1,
+    .col-md-3.cus-2,
+    .col-md-3.cus-3,
+    .col-md-3.cus {
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .about-list {
+        padding-top: 0;
+    }
+
+    .title-4 h2 {
+        font-size: 40px;
+    }
+
+    .main-content-5 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .paragraph-4 p {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+}
